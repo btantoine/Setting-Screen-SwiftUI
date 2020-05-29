@@ -66,7 +66,7 @@ struct SetttingsTab: View {
             
             .navigationBarTitle("Settings")
             .sheet(isPresented: $showSheet) {
-                MailView(result: self.$result, newSubject: "New Feature Suggestion", newMsgBody: "I am enjoying this app, but I want to suggest a new feature!!")
+                MailView(result: self.$result, newSubject: "New Feature Suggestion", newMsgBody: "I am enjoying this app, but I want to suggest a new feature!!!")
             }
             
         }
